@@ -155,7 +155,6 @@ body {
     display: flex;
     justify-content: center;
 }
-
 .main-register .singin__container {
     width: 100%;
     max-width: 500px;
@@ -208,12 +207,13 @@ body {
     width: 20px;
     margin-right: 10px;
 }
+
 @media (min-width: 768px) {   
     .header__logo {
         width: 150px;
     } 
     main {
-        height: 740px;
+        min-height: 740px;
     }
     .info-text-container .title-text {
         font-size: 3.5rem;
