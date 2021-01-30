@@ -207,7 +207,10 @@ body {
     width: 20px;
     margin-right: 10px;
 }
-@media (min-width: 768px) {    
+@media (min-width: 768px) {   
+    .header__logo {
+        width: 150px;
+    } 
     .info-text-container .title-text {
         font-size: 3.5rem;
     }
@@ -219,7 +222,7 @@ body {
         margin-top: 40px;
     }
     .register-button-container .register-button {    
-        width: 200px;
+        width: 230px;
         padding: 15px;
         font-size: 1.6rem;
     }   
@@ -231,18 +234,17 @@ body {
         border-radius: 40px;
         padding: 30px 30px;
     } 
-
 }
 @media (min-width: 1024px) {  
     body {
         background-image: url("../images/bg-desktop.svg");
     }
     .header__logo {
-        width: 170px;
+        width: 200px;
     }
     main {
         display: flex;
-        height: 500px;
+        height: 740px;
         align-items: center;
         justify-content: flex-start;
     }
@@ -253,7 +255,7 @@ body {
     }
     .main__image-container .main-image {
         max-width: 100%;
-        max-width: 700px;
+        max-width: 1000px;
     }
     .main__info-container {
         align-items: flex-start; 
