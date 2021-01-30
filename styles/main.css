@@ -168,11 +168,11 @@ body {
 }
 .singin__container h2{
     font-family: var(--poppins-font);
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 500;
 }
 .form-button{
-    padding: 12px 17px ;
+    margin-top: 20px;
     outline: none;
     border: none;
     cursor: pointer;
@@ -201,7 +201,8 @@ body {
 .singin__social-media a {
     display: flex;
     align-items: center;
-    margin: 15px 0;
+    margin-bottom: 25px;
+    font-size: 1.4rem;
 }
 .singin__social-media a img{
     width: 20px;
@@ -211,6 +212,9 @@ body {
     .header__logo {
         width: 150px;
     } 
+    main {
+        height: 740px;
+    }
     .info-text-container .title-text {
         font-size: 3.5rem;
     }
@@ -227,12 +231,12 @@ body {
         font-size: 1.6rem;
     }   
     .main-register .singin__container {
-        width: 300px;
-        height: 500px;
+        width: 400px;
+        height: 680px;
         background-color: rgba(255,255,255,0.1);
         border: 2px solid white;
         border-radius: 40px;
-        padding: 30px 30px;
+        padding: 40px;
     } 
 }
 @media (min-width: 1024px) {  
@@ -244,7 +248,6 @@ body {
     }
     main {
         display: flex;
-        height: 740px;
         align-items: center;
         justify-content: flex-start;
     }
